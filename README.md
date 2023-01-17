@@ -95,3 +95,14 @@ Using a similar method from our data visualization, we took a random 36 images f
 With that we were able to save our model and safely hand it over to Jane Doe to use it in her crosswalk safety project. We recommend as a next step that she create a vehicle detection (not classification!) model to be used in combination with our model in order to detect cars in real time video instead of through an image!
 
 
+Model Metrics: Highly Prediction in vehicle classification (vehicle vs. non-vehicle)
+
+Model Parameters: Image file(s)
+
+Model Hyperparameters: CNN Model, Conv2D: (128,64,32) filters, (3,3) kernel size, "Same" padding, "relu" activation
+                       MaxPool2D: (2,2) pool size
+                       BatchNormalization()
+                       Flatten()
+                       (128,64,1) Dense, "sigmoid" activation
+                   
+Model Performance Metrics: Model Accuracy and Model Loss
